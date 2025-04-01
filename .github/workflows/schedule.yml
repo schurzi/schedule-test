@@ -9,6 +9,7 @@ on:
   schedule:
     # https://crontab.guru/every-hour
     - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   merge_schedule:
