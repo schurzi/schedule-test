@@ -20,7 +20,7 @@ jobs:
       checks: read
       statuses: read
     steps:
-      - uses: gr2m/merge-schedule-action@2.6.2
+      - uses: gr2m/merge-schedule-action@v2.6.2
         with:
           # Merge method to use. Possible values are merge, squash or
           # rebase. Default is merge.
