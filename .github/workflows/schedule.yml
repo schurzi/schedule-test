@@ -20,7 +20,7 @@ jobs:
       checks: read
       statuses: read
     steps:
-      - uses: schurzi/merge-schedule-action@fix_timezone
+      - uses: schurzi/merge-schedule-action@debug
         with:
           # Merge method to use. Possible values are merge, squash or
           # rebase. Default is merge.
